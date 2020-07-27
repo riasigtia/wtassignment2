@@ -1,0 +1,40 @@
+.navigation {
+
+  position: sticky;
+  top: 0;
+  z-index: 100;
+
+}
+a:hover {
+  background-color: grey;
+}
+span{
+
+  color: red;
+
+}
+input[type="checkbox"]:required:invalid + label { color: red; }
+  input[type="checkbox"]:required:valid + label { color: green; }
+h2{
+    color: blue;
+}
+#stripe {
+    background:grey;
+    height: 30px;
+    text-align: center;
+    color: grey;
+}
+table{
+	margin-top: 50px;
+	text-align: center;
+	background: white;
+	color: black;
+}
+
+#show th, #show td{
+	padding: 13px;
+}
+
+#btna td input{
+	width: 100%;
+}
